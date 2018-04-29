@@ -5,36 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Результат собеседования</title>
 </head>
 
 <body>
     <div>
-        <div>
-            <img src="#" alt="Foto">
+        <h2>Вакансия: Junior Front-End Developer</h2>
+    </div>
+    <div class="empl-info">
+        <div style="display: inline-block; vertical-align:top;">
+            <img src="img/photo.jpg" alt="Foto" style="width: 150px">
         </div>
-        <div>
+        <div style="display: inline-block; vertical-align:top;">
             <p>Имя: Антон Дьяков</p>
             <a href="#">Ссылка на репозиторий в GitHub</a>
             <p>Опыт работы: нет</p>
         </div>
     </div>
-    <div>
-        <p>Дата собеседования:</p>        <!--TODO: Time-->
-        <p><b>Уровень английского:</b><br>
-            <input type="radio" name="lang" value="bad">Плохо</input>
-            <input type="radio" name="lang" value="middle">Средне</input>
-            <input type="radio" name="lang" value="good">Хорошо</input>
-            <input type="radio" name="lang" value="perfect">Превосходно</input>
+    <div class="empl-detail">
+        <p>Дата собеседования:
+            <input type="date">
         </p>
-        <p>Ключевые навыки:<br>
-        
-        <ul>
-            <li>HTML</li>
-            <li>CSS/LESS</li>
-            <li>JavaSript</li>
-        </ul>
-
+        <p>
+            <b>Уровень английского:</b>
+            <br>
+            <input type="radio" name="lang" value="bad">
+            <span>Плохо</span>
+            <input type="radio" name="lang" value="middle">
+            <span>Средне</span>
+            <input type="radio" name="lang" value="good">
+            <span>Хорошо</span>
+            <input type="radio" name="lang" value="perfect">
+            <span>Превосходно</span>
+        </p>
+        <p>Ключевые навыки:
+            <br>
+            <ul>
+                <li>HTML</li>
+                <li>CSS/LESS</li>
+                <li>JavaSript</li>
+            </ul>
+        </p>
+        <input type="text" placeholder="введите навык">
+        <input type="submit" value="Добавить в список">
+        <p>Коммуникабельность:
+            <select name="social">
+                <option selected>Выберите значение</option>
+                <option value="s1">Замкнутый</option>
+                <option value="s2">Мастер переговоров</option>
+                <option value="s3">Общительный</option>
+                <option value="s4">Нейтральный</option>
+            </select>
+        </p>
+        <p>Желаемая з/п:
+            <input type="number" placeholder="введите значение...">
+        </p>
+        <p>Подходит по критериям:
+            <br>
+            <input type="checkbox" name="criteria" value="english">Знание английского
+            <input type="checkbox" name="criteria" value="salary">Оклад
+            <input type="checkbox" name="criteria" value="experience">Навыки
+            <input type="checkbox" name="criteria" value="buddy">Сразу видно, что свой человек
+        </p>
+        <p>Образование, курсы и т.п.
+            <table border=1>
+                <tr>
+                    <th>#</th>
+                    <th>Сроки обучения</th>
+                    <th>Наименование учебного заведения, курсов</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>2000-2005</td>
+                    <td>БГТУ "ВОЕНМЕХ"</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>06.2010-08.2010</td>
+                    <td>Oracle Database</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>05.2016</td>
+                    <td>Курсы по Agile</td>
+                </tr>
+            </table>
 
         </p>
     </div>
