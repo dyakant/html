@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <h2>Вакансия: Junior Front-End Developer</h2>
+    <h2>Junior Front-End Developer</h2>
+    <hr>
     <div class="empl-info">
         <div class="empl-info-el">
             <img src="img/photo.jpg" alt="Employe's Photo">
@@ -18,19 +19,26 @@
         <div class="empl-info-el">
             <p>
                 <b>Имя:</b> Антон Дьяков</p>
+            <p>
+                <b>Город:</b> Санкт-Петербург</p>
+            <p>
+                <b>Телефон</b> 8 (921) 795-11-98</p>
             <a href="https://github.com/dyakant/html.git" target="_blank">Ссылка на репозиторий в GitHub</a>
-            <p>Опыт работы: нет</p>
+        </div>
+        <div class="empl-info-el">
+            <div class="date">
+                Дата собеседования:
+                <input type="date">
+
+            </div>
         </div>
     </div>
-    <div class="date">
-        Дата собеседования:
-            <input type="date">
-
-    </div>
+    <hr>
     <div class="empl-detail">
-        <p>
-            <b>Уровень английского:</b>
-            <br>
+        <div class="english">
+            <p>
+                <b>Уровень английского:</b>
+            </p>
             <input type="radio" name="lang" value="bad">
             <span>Плохо</span>
             <input type="radio" name="lang" value="middle">
@@ -39,8 +47,9 @@
             <span>Хорошо</span>
             <input type="radio" name="lang" value="perfect">
             <span>Превосходно</span>
-        </p>
-        <p>Ключевые навыки:
+        </div>
+        <span class="key-skills">
+            <b>Ключевые навыки:</b>
             <ul>
                 <li>HTML</li>
                 <li>CSS/LESS</li>
@@ -48,8 +57,9 @@
             </ul>
             <input type="text" placeholder="введите навык">
             <input type="submit" value="Добавить в список">
-        </p>
-        <p>Коммуникабельность:
+        </span>
+        <p>
+            <b>Коммуникабельность:</b>
             <select name="social">
                 <option selected>Выберите значение</option>
                 <option value="s1">Замкнутый</option>
@@ -58,17 +68,25 @@
                 <option value="s4">Нейтральный</option>
             </select>
         </p>
-        <p>Желаемая з/п:
+        <p>
+            <b>Желаемая з/п:</b>
             <input type="number" placeholder="введите значение..." step="1000" min="0" max="1000000">
         </p>
-        <p>Подходит по критериям:
-            <br>
+        <div class="criteria">
+            <p>
+                <b>Подходит по критериям:</b>
+            </p>
+
+
             <input type="checkbox" name="criteria" value="english">Знание английского
             <input type="checkbox" name="criteria" value="salary">Оклад
             <input type="checkbox" name="criteria" value="experience">Навыки
             <input type="checkbox" name="criteria" value="buddy">Сразу видно, что свой человек
-        </p>
-        <p><b>Образование, курсы и т.п.</b>
+        </div>
+        <div class="education">
+            <p>
+                <b>Образование, курсы, сертификаты:</b>
+            </p>
             <table border=1>
                 <tr>
                     <th>#</th>
@@ -91,9 +109,11 @@
                     <td>Курсы по Agile</td>
                 </tr>
             </table>
-
-        </p>
+        </div>
     </div>
+    <footer>
+        <p>Copyright &copy by Dyakov Anton</p>
+    </footer>
 </body>
 
 </html>
