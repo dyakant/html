@@ -1,6 +1,78 @@
 
-07/05/2018. Flex-box
-
+07/05/2018. 
+-------------------------------------------------------------------------------------
+| Flex-box
+-------------------------------------------------------------------------------------
 http://html5.by/blog/flexbox/
 
 "float" - способ вёрстки
+
+Чтобы включить Flex для родительского элемента:
+    display: flex;
+
+Основные свойства:
+1) flex-direction: column;   (Mobile Edge не знает эту опцию)
+                 : row; --default
+
+2) justify-content: --выравнивание по горизонтали
+    space-around, 
+
+3) align-items      --выравнивание по вертикали
+    ??baseline - можно ли менять позицию - расчитывается автоматом
+
+4) flex-wrap
+
+5) align-content
+
+
+https://maxsteenbergen.com/fibonacci
+
+--webkit - префиксы для поддержки старых браузеров. Могут быть добавлены автоматически
+
+-------------------------------------------------------------------------------------
+| DOM (Document Object Model)
+-------------------------------------------------------------------------------------
+https://learn.javascript.ru/dom-nodes
+(так же хорошая книга "Выразительный JavaScript")
+
+document.getElementByID()
+
+elme
+
+
+
+-------------------------------------------------------------------------------------
+| jQuery
+-------------------------------------------------------------------------------------
+Библиотека для доступа к ДОМ.
+
+Синтаксис:
+    $(селектор).класс("")
+...
+
+Мучаем ДЗ:
+1) Ставим идентификатор, id="some-id"
+2) Правим js-script:
+const element = document.getElementById('some-id');
+console.log(element);
+const elems = element.children; --HTML Collection, it's not an array
+console.log(elems);
+console.log(elems[0].innerHTML); //покажет разметку
+console.log(elems[0].innerText); //покажет весь текст
+previousSibling         //соседний элемент-любой
+previousElementSibling  //соседний элемнт-тэг
+elems[0].nextElementSibling.innerHTML='new value' //
+
+const byClass = document.getElementByClassName('some-class');
+//const byTag = byClass[0].getElementByTagName('some-tag'); //byClass возвращает коллекцию
+const byTag = document.getElementByTagName('some-tag');
+alert(byTag ? byTag.length : 'none');
+byTag[0].value='new-value';
+const add = 'value2';
+byTag[0].value += add;
+alert(byTag[0].value);
+
+let data={}
+data.skill = byTag[0].value;
+data.someOtherValue = byTag[0].value;
+console.log(data);
