@@ -1,3 +1,4 @@
+
 body{
     background-color: lightblue;
     width: 75%;
@@ -26,9 +27,24 @@ hr {
 
 div>p:first-child {margin-top: 0px;} 
 
+input, select {
+	border-radius: 8px;
+	cursor:pointer;
+}
+
 input[type="submit"] {
-    border-radius: 1px;
+	border: 0;
+	box-shadow: 0 0 3px 1px;
     background-color: cadetblue;
+}
+
+input[type="submit"]:hover {
+    background-color: #c4dbdc;
+}
+
+input[type="number"] {
+    width: 150px;
+	text-align: right;
 }
 
 .criteria>p, .english>p, .education>p {
@@ -45,6 +61,14 @@ input[type="submit"] {
 
 td, th {
     padding: 5px 10px;
+}
+
+td {
+	background-color: white;
+}
+
+tr:hover {
+	background-color: #d8ecf3;
 }
 
 li{
