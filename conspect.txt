@@ -1,0 +1,6 @@
+
+07/05/2018. Flex-box
+
+http://html5.by/blog/flexbox/
+
+"float" - способ вёрстки
