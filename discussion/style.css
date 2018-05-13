@@ -1,0 +1,96 @@
+.body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.disc-body {
+    height: 600px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.disc-topic {
+    flex:none;
+    height: 70px;
+    background-color: #81ccf1;
+    border: 1px solid black;
+}
+
+h2 {
+    margin: 5px;
+}
+.disc-topic p{
+    padding: 3px;
+    margin:5px;
+}
+
+.disc-center {
+    height: 100%;
+    background-color: #006fa7;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+.line {
+    flex: none;
+    margin: 10px 0;
+    border-right: 1px solid black;
+    position: relative;
+    left: 150px;
+}
+
+.disc-item {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.disc-names {
+    flex: none;
+    width: 150px;
+    margin: 0;
+    border-right: 1px solid black;
+    display: flex;
+}
+
+.disc-names-item {
+    display: flex;
+    align-items: center;
+}
+
+.disc-names-item>div {
+    margin: 2px;
+}
+
+.disc-names-item>div:first-child {
+    width: 45px;
+    height: 45px;
+    margin-left: 4px;
+    background-color: #81ccf1;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disc-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.disc-content-item>p {
+    padding: 10px;
+    margin: 1px;
+    background-color: #1da6eb;
+    border: 1px solid black;
+}
+
+.disc-content-item {
+    margin: 10px;
+}
