@@ -2,80 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <title>Discussion</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css">
+	<!-- Почему подключение discussion.css не работает, 
+		хотя файл подключается также, как и style.css? -->
+	<!-- <link rel="stylesheet" href="discussion.css"> -->
+	<title>Discussion</title>
 </head>
 
 <body>
 <div class="body">
-    <div class="disc-body">
-        <div class="disc-topic">
-            <h2>Disussion topic:
-                <span id="topic">What about bill?</span>
-            </h2>
-            <p>Created by:
-                <span id="creator">Dyakov Anton</span>
-                &nbsp&nbsp&nbspCreated on:
-                <span id="creation-time">07.05.2018</span>
-            </p>
-        </div>
-        <div class="disc-center">
-            <!-- <div class="line"></div> -->
-            <div class="disc-item">
-                <div class="disc-names">
-                    <div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
-                </div>
-                <div class="disc-content">
-                    <div class="disc-content-item">Anton Dyakov<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur nesciunt commodi iure eaque natus laudantium, veritatis maxime sunt rem quo nemo soluta a atque corrupti, asperiores tempora quod dolorem!</p></div>
-                </div>
-            </div>
-            <div class="disc-item">
-                <div class="disc-names">
-                    <div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
-                </div>
-                <div class="disc-content">
-                    <div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>очень годный</p></div>
-                </div>
-            </div>
-            <div class="disc-item">
-                <div class="disc-names">
-                    <div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
-                </div>
-                <div class="disc-content">
-                    <div class="disc-content-item">Anton Dyakov<p>Годный сотрудник Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore et commodi amet quae quibusdam! Corporis, dolorem? Dolor tenetur, quod dolores, nihil quas eius eum facilis aperiam ratione voluptate nam ducimus.</p></div>
-                </div>
-            </div>
-            <div class="disc-item">
-                <div class="disc-names">
-                    <div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
-                </div>
-                <div class="disc-content">
-                    <div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>Берём!<br>Я первый!</p></div>
-                </div>
-            </div>
-            <div class="disc-item">
-                <div class="disc-names">
-                    <div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
-                </div>
-                <div class="disc-content">
-                    <div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>Берём!<br>Я первый!</p></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="disc-add">
-        <div>
-            <p>Author:<input type="text"></p>
-            <p>Comment:
-                <input type="text">
-                <input type="button" value="submit">
-            </p>            
-        </div>
-    </div>
+	<div class="disc-body">
+		<div class="disc-topic">
+			<h2>Disussion topic:
+				<span id="topic">What about bill?</span>
+			</h2>
+			<p>Created by:
+				<span id="creator">Dyakov Anton</span>
+				&nbsp&nbsp&nbspCreated on:
+				<span id="creation-time">07.05.2018</span>
+			</p>
+		</div>
+		<div class="disc-center">
+			<!-- <div class="line"></div> -->
+			<div class="disc-item">
+				<div class="disc-names">
+					<div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
+				</div>
+				<div class="disc-content">
+					<div class="disc-content-item">Anton Dyakov<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum tenetur nesciunt commodi iure eaque natus laudantium, veritatis maxime sunt rem quo nemo soluta a atque corrupti, asperiores tempora quod dolorem!</p></div>
+				</div>
+			</div>
+			<div class="disc-item">
+				<div class="disc-names">
+					<div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
+				</div>
+				<div class="disc-content">
+					<div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>очень годный</p></div>
+				</div>
+			</div>
+			<div class="disc-item">
+				<div class="disc-names">
+					<div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
+				</div>
+				<div class="disc-content">
+					<div class="disc-content-item">Anton Dyakov<p>Годный сотрудник Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore et commodi amet quae quibusdam! Corporis, dolorem? Dolor tenetur, quod dolores, nihil quas eius eum facilis aperiam ratione voluptate nam ducimus.</p></div>
+				</div>
+			</div>
+			<div class="disc-item">
+				<div class="disc-names">
+					<div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
+				</div>
+				<div class="disc-content">
+					<div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>Берём!<br>Я первый!</p></div>
+				</div>
+			</div>
+			<div class="disc-item">
+				<div class="disc-names">
+					<div class="disc-names-item"><div>AD</div><div>17.05.2018<br>14:26:54</div></div>
+				</div>
+				<div class="disc-content">
+					<div class="disc-content-item">Anton Dyakov<p>Годный сотрудник<br>Берём!<br>Я первый!</p></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="disc-add">
+		<div>
+			<p>Author:
+				<input id="author" type="text">
+			</p>
+			<p>Comment:
+				<textarea id="comment" name="comment" rows=1 cols=70></textarea>
+				<input type="button" value="submit" onclick=addComment()>
+			</p>            
+		</div>
+	</div>
 </div>
+	<script src="discussion.js"></script>
 </body>
 
 </html>

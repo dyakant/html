@@ -1,0 +1,68 @@
+======================================================================
+14/05/2018
+----------------------------------------------------------------------
+jquery.page2page.ru
+
+Повторение всплытия событий, stopPropagation
+document.querySelector("#id").addEventListener(event, handler)
+
+----------------------------------------------------------------------
+20:45 - Функции в JS, классы,
+----------------------------------------------------------------------
+Функции - конструкторы: позволяют создавать объекты
+function Person(){
+    this.
+}
+// this по умолчанию undefined,
+
+const obj = {
+    name = "John";
+}
+function Person(name){
+    this.name
+}
+const obj2 = new Person("lada");
+
+Object -> Prototype
+Прототип появляется, когда объект создается через функцию
+
+Person.apply(context, handler1, handler2)
+Person.call(context, handler1, handler2)
+//1-параметром передаётя объект
+
+
+Person.bind
+//Привязывает объект
+|( 21:15 
+
+function создаёт свою область и свой this. Стрелочная функция использует родительский this;
+В function можно использовать self для ссылки к родительскому объекту.
+
+Наследование
+
+class Person2{
+    constructor(name){
+        this.name=name;
+    }
+    red(){console.log(this.name)}
+}
+class Man extends Person2{
+    constructor(name, age){
+        super(name);
+        this.age = age; //this нельзя вызывать раньше чем super
+    }
+    green(){console.log(this.age)}
+    red(){"Man"}
+
+//_ag1 - private variable
+    get age1(){
+        return this._age1;
+    }
+    set age1(a){
+        if(Number.isInteger(a)){
+            this._age1=a;
+        }
+        return
+    }
+
+}
