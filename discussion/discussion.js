@@ -1,6 +1,12 @@
 'use sctrict'
 
 
+function closeDiscussion() {
+	console.log("Discussion is closing...");
+}
+
+/*document.querySelector("i").addEventListener("onclick", closeDiscussion);*/ 
+
 function addComment() {
     const commentEl = document.getElementById('comment');
     const authorEl = document.getElementById('author');
@@ -12,3 +18,4 @@ function addComment() {
     console.log(authorEl.value);
 
 }
+
