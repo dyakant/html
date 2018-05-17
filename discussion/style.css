@@ -56,14 +56,6 @@ h2 {
 	height: 10px;
 }
 
-.line {
-    flex: none;
-    margin: 10px 0;
-    border-right: 1px solid black;
-    position: relative;
-    left: 150px;
-}
-
 .disc-item {
     display: flex;
     flex-direction: row;
