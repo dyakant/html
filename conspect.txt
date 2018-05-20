@@ -1,5 +1,54 @@
+*************************************************************************************
+16/05/2018: https://meet691593211.adobeconnect.com/p2nyvpwi4oij/?proto=true
+*************************************************************************************
+Типы верстки:
+- фиксированная
+- резиновая
+- адаптиваная
+@media rule - исключения
+@media only screen and (max-width: 600px) {...}
+
+Основная вёрстка: Ширина основного контента 1200px. Сперва уменьшается боковые поля. 
+Дальше сужается контент, затем (1000px) блоки будут менять положение.
+
+Методологии организации кода CSS:
+* БЭМ - Блок-Элемент-Модификатор
+Суть: макет разбивается на блоки, прописываются стили для блока.
+block_name__elem-name
+* SMACSS
+* ECSS
+* OOCSS
+* MCSS
+
+* URLs
+методологии:
+https://webformyself.com/css-metodologii-css-bem-smac.. 
+https://webformyself.com/vvedenie-v-obektno-orientiro.. 
+https://www.keycdn.com/blog/oocss/ 
+https://medium.com/@stepanovv.ru/правильный-css-oocss.. 
+https://operatino.github.io/MCSS/ 
+
+Препроцессоры:
+* less (написан на JS) - Live SA  
+* sass (написан на Ruby) - Live SASS Compiler
+Файлы .less, .scss компилируются в код cscs
+
+Live SASS Compiler
+-Переменные $name
+-Вложенность селекторов, соединение через &
+-Импорт, @import 'file.scss';
+-Миксины, функции
+-Расширение, наследование: @extend
+https://sass-scss.ru/guide/
+
+файлы:
+https://meyerweb.com/eric/tools/css/reset/reset.css 
+http://nicolasgallagher.com/about-normalize-css/
+
+
+*************************************************************************************
 10/05/2018: https://meet691593211.adobeconnect.com/pm9z21r6iatq/
--------------------------------------------------------------------------------------
+*************************************************************************************
 |   События (learn.javascript.ru)
 -------------------------------------------------------------------------------------
 - События мыши (click, contextmenu, mouseover,mousedown, mouseup, mousemoveo)
