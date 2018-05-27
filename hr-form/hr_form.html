@@ -15,7 +15,7 @@
     <hr>
     <div class="empl-info">
         <div class="empl-info-el">
-            <img src="img/photo.jpg" alt="Employe's Photo">
+            <img src="../img/photo.jpg" alt="Employe's Photo">
         </div>
         <div class="empl-info-el">
             <p>
@@ -37,9 +37,7 @@
     <hr>
     <div class="empl-detail">
         <div class="english">
-            <p>
-                <b>Уровень английского:</b>
-            </p>
+            <b>Уровень английского:</b><br>
             <input type="radio" name="lang" value="bad">
             <span>Плохо</span>
             <input type="radio" name="lang" value="middle">
@@ -49,7 +47,7 @@
             <input type="radio" name="lang" value="perfect">
             <span>Превосходно</span>
         </div>
-        <span class="key-skills">
+        <div class="key-skills">
             <b>Ключевые навыки:</b>
             <ul>
                 <li>HTML</li>
@@ -57,10 +55,12 @@
                 <li>JavaSript</li>
                 <li>Python</li>
             </ul>
-            <input type="text" placeholder="введите навык">
-            <input type="submit" value="Добавить в список">
-        </span>
-        <p>
+            <div class="add-skill">
+                <input type="text" placeholder="введите навык">
+                <input type="submit" value="Добавить в список">
+            </div>
+        </div>
+        <div>
             <b>Коммуникабельность:</b>
             <select name="social">
                 <option selected>Выберите значение</option>
@@ -69,26 +69,20 @@
                 <option value="s3">Общительный</option>
                 <option value="s4">Нейтральный</option>
             </select>
-        </p>
-        <p>
+        </div>
+        <div>
             <b>Желаемая з/п:</b>
             <input type="number" placeholder="введите значение..." step="1000" min="0" max="1000000">
-        </p>
+        </div>
         <div class="criteria">
-            <p>
-                <b>Подходит по критериям:</b>
-            </p>
-
-
+            <b>Подходит по критериям:</b><br>
             <input type="checkbox" name="criteria" value="english">Знание английского
             <input type="checkbox" name="criteria" value="salary">Оклад
             <input type="checkbox" name="criteria" value="experience">Навыки
             <input type="checkbox" name="criteria" value="buddy">Сразу видно, что свой человек
         </div>
         <div class="education">
-            <p>
-                <b>Образование, курсы, сертификаты:</b>
-            </p>
+            <b>Образование, курсы, сертификаты:</b>
             <table border=1 bgcolor="white">
                 <tr>
                     <th>#</th>

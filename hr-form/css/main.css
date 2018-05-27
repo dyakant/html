@@ -9,7 +9,7 @@ body {
 body h1 {
   margin: 10px;
   font-size: 20px;
-  color: rebeccapurple;
+  color: #499597;
   text-align: center;
 }
 
@@ -31,9 +31,88 @@ body img {
   width: 150px;
 }
 
+body ul {
+  margin: 0;
+}
+
+body .empl-detail div {
+  margin: 10px 0;
+}
+
+body .empl-detail li {
+  padding: 1px;
+}
+
+body .empl-detail .key-skills .add-skill {
+  margin-top: 5px;
+}
+
+body table {
+  margin-top: 5px;
+  border-collapse: collapse;
+}
+
+body td, body th {
+  padding: 5px 10px;
+}
+
+body th {
+  background-color: lightblue;
+}
+
+body footer {
+  height: 50px;
+  text-align: center;
+  display: table;
+  width: 100%;
+}
+
+body footer p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 input[type="submit"] {
   border: 0;
   box-shadow: 0 0 3px 1px;
-  background-color: cadetblue;
+  background-color: #499597;
+}
+
+input[type="radio"],
+select,
+input[type="checkbox"] {
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+input, select {
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 150px;
+  text-align: right;
+}
+
+#send-form {
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 85%;
+  left: 80%;
+  background-color: #499597;
+}
+
+input[type="submit"]:hover,
+#send-form:hover {
+  background-color: #d8ecf3;
+}
+
+tr:hover {
+  background-color: #d8ecf3;
 }
 /*# sourceMappingURL=main.css.map */
