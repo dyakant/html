@@ -178,3 +178,34 @@ let data={}
 data.skill = byTag[0].value;
 data.someOtherValue = byTag[0].value;
 console.log(data);
+
+
+
+Занятие 1: 
+https://meet691593211.adobeconnect.com/pk3t7lpzvrur/
+Занятие 2:
+https://meet691593211.adobeconnect.com/pd0kahv70u25/
+Занятие 3:
+https://meet691593211.adobeconnect.com/p7iaq4jjiryg/
+Занятие 4:
+https://meet691593211.adobeconnect.com/ppxsiy5sf621/
+Занятие 5:
+https://meet691593211.adobeconnect.com/pgr8etpmg5we/
+Факультатив 1: 
+https://meet691593211.adobeconnect.com/pkv05kbcwlf5/
+Занятие 6:
+https://meet691593211.adobeconnect.com/phkmehfaf2ev/
+Занятие 7:
+https://meet691593211.adobeconnect.com/pakef2cbg8xg/
+Занятие 8:
+https://meet691593211.adobeconnect.com/py19bs8ve0zd/
+Занятие 9:
+https://meet691593211.adobeconnect.com/pm9z21r6iatq/
+Занятие 10:
+https://meet691593211.adobeconnect.com/p9f1d4ia7nl8/
+Факультатив 2:
+https://meet691593211.adobeconnect.com/p2nyvpwi4oij/
+Занятие 11:
+https://meet691593211.adobeconnect.com/peh9wlrob3q0/
+Занятие 12:
+https://meet691593211.adobeconnect.com/pml2lqsihqt3/

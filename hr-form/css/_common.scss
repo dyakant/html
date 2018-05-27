@@ -1,0 +1,133 @@
+
+body {
+    font: 100% $font-stack;
+    background-color: $primary-color;
+    width: 75%;
+    margin: 0 auto;
+
+    h1{
+        margin: 10px;
+        font-size: 20px;
+        color: rebeccapurple;
+        text-align: center;
+    }
+
+    b {
+        font-weight: bold;
+    }
+    p, a {
+        margin: 5px;
+    }
+.empl-info-el {
+    display: inline-block; 
+    vertical-align:top;
+    margin: 0 10px; 
+}
+img{width: 150px;}
+
+}
+
+// .empl-info {
+//     padding-bottom: 0px;}
+
+// hr {
+//     padding:0px;
+// }
+
+// .empl-info-el {
+//     display: inline-block; 
+//     vertical-align:top;
+//     margin: 10px;
+// }
+
+// .empl-info-el>img{width: 150px;}
+
+// div>p:first-child {margin-top: 0px;} 
+
+// input, select {
+// 	border-radius: 8px;
+// 	cursor:pointer;
+// }
+
+// input[type="submit"] {
+// 	border: 0;
+// 	box-shadow: 0 0 3px 1px;
+//     background-color: cadetblue;
+// }
+
+// input[type="submit"]:hover {
+//     background-color: #c4dbdc;
+// }
+
+// input[type="number"] {
+//     width: 150px;
+// 	text-align: right;
+// }
+
+// .criteria>p, .english>p, .education>p {
+//     margin-bottom:5px;
+// }
+
+// .english, .criteria {
+//     margin-bottom: 10px;
+// }
+
+// .date {
+//     text-align: right;
+// }
+
+// table {
+//     border-collapse: collapse;
+// }
+
+// td, th {
+//     padding: 5px 10px;
+// }
+
+// th {
+// 	background-color: lightblue;
+// }
+
+// tr:hover {
+// 	background-color: #d8ecf3;
+// }
+
+// li{
+//     padding: 5px;
+// }
+
+// ul{
+//     margin:0px;
+// }
+
+// .key-skills{
+//     margin: 0px;
+// }
+
+// #send-form {
+//     width: 70px;
+//     height: 70px;
+//     border-radius: 50%;
+//     margin: 0;
+//     padding: 0;
+//     position: fixed;
+//     top: 85%;
+//     left: 80%;
+//     background-color: rosybrown;
+// }
+
+// #send-form:hover {
+//     background-color: #5e56d4;
+// }
+
+// footer{
+//     height: 50px;
+//     text-align: center;
+//     display:table;
+//     width: 100%;
+// }
+
+// footer p{
+//     display:table-cell;
+//     vertical-align: middle;
+// }
