@@ -4,23 +4,6 @@ input[type="submit"] {
     background-color: $button-color;
 }
 
-input[type="radio"],
-select,
-input[type="checkbox"] {
-	margin-left: 10px;
-	margin-top: 2px;
-}
-
-input, select {
-	border-radius: 8px;
-	cursor:pointer;
-}
-
-input[type="number"] {
-    width: 150px;
-	text-align: right;
-}
-
 #send-form {
     width: 100px;
     height: 50px;

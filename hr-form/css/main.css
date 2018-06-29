@@ -6,76 +6,70 @@ body {
   margin: 0 auto;
 }
 
-body h1 {
+h1 {
   margin: 10px;
   font-size: 20px;
   color: #499597;
   text-align: center;
 }
 
-body b {
+b {
   font-weight: bold;
 }
 
-body p, body a {
+p, a {
   margin: 5px;
 }
 
-body .empl-info-el {
+.empl-info-el {
   display: inline-block;
   vertical-align: top;
   margin: 0 10px;
 }
 
-body img {
+img {
   width: 150px;
 }
 
-body ul {
+ul {
   margin: 0;
 }
 
-body .empl-detail div {
+.empl-detail div {
   margin: 10px 0;
 }
 
-body .empl-detail li {
+.empl-detail li {
   padding: 1px;
 }
 
-body .empl-detail .key-skills .add-skill {
+.empl-detail .key-skills .add-skill {
   margin-top: 5px;
 }
 
-body table {
+table {
   margin-top: 5px;
   border-collapse: collapse;
 }
 
-body td, body th {
+td, th {
   padding: 5px 10px;
 }
 
-body th {
+th {
   background-color: lightblue;
 }
 
-body footer {
+footer {
   height: 50px;
   text-align: center;
   display: table;
   width: 100%;
 }
 
-body footer p {
+footer p {
   display: table-cell;
   vertical-align: middle;
-}
-
-input[type="submit"] {
-  border: 0;
-  box-shadow: 0 0 3px 1px;
-  background-color: #499597;
 }
 
 input[type="radio"],
@@ -93,6 +87,12 @@ input, select {
 input[type="number"] {
   width: 150px;
   text-align: right;
+}
+
+input[type="submit"] {
+  border: 0;
+  box-shadow: 0 0 3px 1px;
+  background-color: #499597;
 }
 
 #send-form {

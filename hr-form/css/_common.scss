@@ -4,73 +4,90 @@ body {
     background-color: $primary-color;
     width: 75%;
     margin: 0 auto;
+}
 
-    h1{
-        margin: 10px;
-        font-size: 20px;
-        color: $button-color;
-        text-align: center;
+h1{
+    margin: 10px;
+    font-size: 20px;
+    color: $button-color;
+    text-align: center;
+}
+
+b {
+    font-weight: bold;
+}
+
+p, a {
+    margin: 5px;
+}
+
+.empl-info-el {
+    display: inline-block; 
+    vertical-align:top;
+    margin: 0 10px; 
+}
+
+img{width: 150px;}
+
+
+ul {
+    margin: 0;
+}
+
+.empl-detail {
+    div {
+        margin: 10px 0;
     }
 
-    b {
-        font-weight: bold;
+    li {
+        padding: 1px;
     }
 
-    p, a {
-        margin: 5px;
-    }
-
-    .empl-info-el {
-        display: inline-block; 
-        vertical-align:top;
-        margin: 0 10px; 
-    }
-
-    img{width: 150px;}
-
-
-    ul {
-        margin: 0;
-    }
-
-    .empl-detail {
-        div {
-            margin: 10px 0;
+    .key-skills {
+        .add-skill {
+            margin-top: 5px;
         }
-
-        li {
-            padding: 1px;
-        }
-
-        .key-skills {
-            .add-skill {
-                margin-top: 5px;
-            }
-        }
     }
+}
 
-    table {
-        margin-top: 5px;
-        border-collapse: collapse;
-    }
+table {
+    margin-top: 5px;
+    border-collapse: collapse;
+}
 
-    td, th {
-        padding: 5px 10px;
-    }
+td, th {
+    padding: 5px 10px;
+}
 
-    th {
-    	background-color: $table-header;
-    }
+th {
+    background-color: $table-header;
+}
 
-    footer{
-        height: 50px;
-        text-align: center;
-        display:table;
-        width: 100%;
-    }
+footer{
+    height: 50px;
+    text-align: center;
+    display:table;
+    width: 100%;
+}
 
-    footer p{
-        display:table-cell;
-        vertical-align: middle;
-    }
+footer p{
+    display:table-cell;
+    vertical-align: middle;
+}
+
+input[type="radio"],
+select,
+input[type="checkbox"] {
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+input, select {
+	border-radius: 8px;
+	cursor:pointer;
+}
+
+input[type="number"] {
+    width: 150px;
+	text-align: right;
 }
